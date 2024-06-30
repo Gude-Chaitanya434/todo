@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+#taskInput{
+    width:calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#addButton{
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#addButton:hover{
+    background-color: rgb(67, 165, 169);
+}
+
+#todoItems{
+    list-style-type: none;/*for deleting . in list items*/
+    padding: 0px;
+}
+
+li.notcompleted{
+color:green;
+}
+
+li.completed{
+    color:red;
+    text-decoration: line-through;
+    }
+
+i{
+       
+        padding:5px 5px;
+    }
+
+p{
+    color:red;
+}
+.fa-check{
+    color:green;
+}
